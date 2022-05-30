@@ -9,9 +9,9 @@
 }
 
 body{
-  padding: 0 30%;
-  overflow-x: hidden;
+	overflow-x: hidden;
 }
+
 
 @keyframes animate{
   0% {transform: scale(1);
@@ -26,15 +26,14 @@ body{
   }
 }
 .menu {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	align-content: center;
-    justify-content: center;
 	font-family: 'arial', bold;
 	font-weight: 400;
 	color: black;
 	font-size: 1rem;
+	width: 1500px;
+	display: block;
+	margin: 0px auto;
+	padding: 0 0%!important;
 	}
 
 .menu ul{
@@ -44,11 +43,13 @@ body{
 	font-weight: 400;
 	font-size: 4rem ;
 	text-decoration:none;
+	
 }
 li :hover, li :link, li :visited {
-	color: white;
+	color: white!important;
 	text-decoration:none;
 }
+
 .texto {
 	display: flex;
 	flex-direction: column;
@@ -84,6 +85,9 @@ li :hover, li :link, li :visited {
     justify-content: center;
 	opacity: 1;
 }
+.form2 {
+padding: 0 30%;
+}
 
 .form .formContent {
 color: darkred;
@@ -110,7 +114,7 @@ h1 {
 	color: whitesmoke;
 	font-family: 'Libre Barcode 39 Extended Text', cursive;
     font-weight: 400;
-    font-size: 7rem ;
+    font-size: 7rem!important ;
     display: flex;
     align-items: center;
 	align-content: center;
@@ -123,7 +127,7 @@ h2 {
 	color: whitesmoke;
 	font-family: 'Libre Barcode 39 Extended Text', cursive;
     font-weight: 400;
-    font-size: 4rem ;
+    font-size: 4rem!important ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,10 +145,22 @@ h3 {
     justify-content: center;
 }
 
+h4 {
+	margin: 0;
+	padding: 0;
+	color: whitesmoke;
+	font-family: 'arial', bold
+    font-weight: 400;
+    font-size: 2rem!important ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer {
 	font-family: 'arial', bold
 	font-weight: 400;
-	font-size: 1.5rem;
+	font-size: 1.5rem!important;
 	display: flex;
     align-items: center;
 	align-content: center;
@@ -165,7 +181,14 @@ footer :hover, footer :visited,footer :link {
     animation-iteration-count: 1;
     animation-delay: 1; 
     animation-fill-mode: both;
+	padding: 0 30%
 }
+
+.slides {
+	padding: 0 20%!important
+	
+}
+
 
 #flyer > img {
 	max-width: 75%;
