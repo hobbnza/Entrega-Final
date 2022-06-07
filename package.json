@@ -1,0 +1,19 @@
+{
+  "name": "sass---gm---gonzalo-de-la-cruz---37265",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hobbnza/Entrega-Coder-2.git"
+  },
+  "author": "Gonzalo de la Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hobbnza/Entrega-Coder-2/issues"
+  },
+  "homepage": "https://github.com/hobbnza/Entrega-Coder-2#readme"
+}

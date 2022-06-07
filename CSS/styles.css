@@ -147,10 +147,26 @@ h4 {
 	margin: 0;
 	padding: 0;
 	color: whitesmoke;
+<<<<<<< HEAD
 	font-family: 'arial', bold;
     font-weight: 400;
     font-size: 2rem!important ;
     display: flex;
+=======
+	font-family: 'arial', bold
+    font-weight: 400;
+    font-size: 2rem!important ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+	font-family: 'arial', bold
+	font-weight: 400;
+	font-size: 1.5rem!important;
+	display: flex;
+>>>>>>> 0daf32bc3cd88e5660bba7e232035552917f718c
     align-items: center;
     justify-content: center;
 }
@@ -177,12 +193,21 @@ footer :hover, footer :visited,footer :link {
     animation-delay: 1; 
     animation-fill-mode: both;
 	padding: 0 30%
+<<<<<<< HEAD
+}
+
+.slides {
+	padding: 0 20%!important
+	
+=======
+>>>>>>> 0daf32bc3cd88e5660bba7e232035552917f718c
 }
 
 .slides {
 	padding: 0 20%!important
 	
 }
+
 
 #flyer > img {
 	max-width: 75%;
